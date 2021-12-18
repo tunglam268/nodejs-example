@@ -4,7 +4,7 @@ Setup:
 
 ```bash
 git clone https://github.com/tunglam268/nodejs-example.git
-cd tic-tac-toe
+cd nodejs-example/tic-tac-toe
 npm i
 ```
 
