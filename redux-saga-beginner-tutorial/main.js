@@ -9,7 +9,14 @@ import rootSaga from './sagas'
 import Counter from './Counter'
 import reducer from './reducers'
 
-const store = createStore(reducer)
+
+const sagaMiddleware = createSagaMiddleware()
+
+const store = createStore(
+  reducer,
+  applyMiddleware(sagaMiddleware)
+)
+sagaMiddleware.run(rootSaga)
 
 const action = type => store.dispatch({type})
 
