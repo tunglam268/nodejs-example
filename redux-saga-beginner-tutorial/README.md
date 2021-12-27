@@ -7,7 +7,6 @@ Setup
 
 ```
 // clone the repo
-git clone https://github.com/redux-saga/redux-saga-beginner-tutorial.git
 
 cd redux-saga-beginner-tutorial
 
